@@ -1,0 +1,61 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+body{
+  font-family: "Urbanist", sans-serif !important;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+/* .custom-padding{
+  padding-left: 64px; 
+  padding-right: 64px;
+} */
+
+.navbar .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-dark-hover:hover {
+  background-color: #fff  !important;  /* same as btn-dark default */
+  color: #212529 !important;
+  border: 1px solid #212529!important;
+}
+
+.main-content{
+  min-height: calc(100vh - 4rem);
+  max-width: 100vw;
+}
+
+.custom-hero-background{
+  background: url(https://rapido-app-assets.storage.googleapis.com/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png) center center;
+  min-height: calc(100vh - 4rem);
+  max-width: 100vw;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.transition-transform {
+    transition: transform 0.3s ease;
+}
+
+.custom-nav-link {
+  transition: color 0.2s ease;
+}

@@ -1,0 +1,9 @@
+{
+  "short_name": "Vanity Van rental",
+  "name": "Vanity van rental app",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
